@@ -6,7 +6,7 @@ header a:hover{
 }
 
 .bg-hero-banner{
-    background-image:url('/img/background-a-frame.jpg') ;
+    background-image:url('../img/background-a-frame.jpg') ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@ header a:hover{
 }
 
 .section__two__background{
-    background-image:url('/img/background-section2-a-frame.jpg') ;
+    background-image:url('../img/background-section2-a-frame.jpg') ;
     background-repeat: no-repeat;
     background-position: left;
     background-size: left;
