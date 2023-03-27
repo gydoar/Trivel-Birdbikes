@@ -1,0 +1,44 @@
+header img{
+    max-width: 400px;
+}
+header a:hover{
+    text-decoration: underline !important;
+}
+
+.bg-hero-banner{
+    background-image:url('/img/background-a-frame.jpg') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 64%);
+}
+
+.section__two a:hover{
+    text-decoration: underline !important;
+}
+
+.section__two__background{
+    background-image:url('/img/background-section2-a-frame.jpg') ;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: left;
+    min-height: 700px;
+}
+
+/* Media queries */
+@media (max-width: 576px) { 
+    header img{
+        max-width: 300px;
+    }
+   
+ }
+
+ @media (max-width: 992px) { 
+    .section__two .container{
+        background-color: #ffffff;
+    }
+    .section__two img.logo{
+        max-width: 300px;
+    }
+ }
