@@ -19,13 +19,33 @@ header a:hover{
 }
 
 .section__two__background{
-    background-image:url('../img/background-section2-a-frame.jpg') ;
+    background-image:url('../img/BBike_af_footer.png') ;
     background-repeat: no-repeat;
     background-position: left;
-    background-size: left;
+    background-size: contain;
     min-height: 700px;
 }
-
+.bg-img1{
+    background-image: url('../img/instant-boost.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+}
+.bg-img2{
+    background-image: url('../img/removable-battery.jpeg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    min-height: 450px;
+}
+.bg-img3{
+    background-image: url('../img/powerful-motor.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 450px;
+}
 /* Media queries */
 @media (max-width: 576px) { 
     header img{
