@@ -46,6 +46,10 @@ header a:hover{
     background-size: cover;
     min-height: 450px;
 }
+
+ul.list-unstyled, div#msgSubmit{
+    color: red;
+}
 /* Media queries */
 @media (max-width: 576px) { 
     header img{
